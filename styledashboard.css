@@ -18,3 +18,22 @@ body {
     rgb(231, 97, 189)    /* #E761BD */
   );
 }
+.wrapper h1 {
+  position: absolute;
+  top: 20px;
+  left: 20%;
+  transform: translatex(-50%)
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+}
+.wrapper p{
+  position: absolute;
+  top: 80px;
+  left: 25%;
+  transform: translatex(-50%)
+  text-align: center;
+  font-size: 16px;
+  text-align: center;
+  
+}
