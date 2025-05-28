@@ -23,7 +23,7 @@ body {
 margin-top: 20px;
   width: 420px;
  background: linear-gradient(45deg, rgba(18, 27, 103, 0.8), rgba(118, 3, 15, 0.5));
-  border: 5px solid; /* color inicial, se animará */
+  border: 10px solid; /* color inicial, se animará */
   backdrop-filter: blur(15px);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   color: #fff;
