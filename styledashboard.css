@@ -21,7 +21,7 @@ body {
 .wrapper h1 {
   position: absolute;
   top: 20px;
-  left: 20%;
+  left: 50%;
   transform: translatex(-50%)
   text-align: center;
   font-size: 40px;
@@ -30,7 +30,7 @@ body {
 .wrapper p{
   position: absolute;
   top: 80px;
-  left: 25%;
+  left: 50%;
   transform: translatex(-50%)
   text-align: center;
   font-size: 16px;
