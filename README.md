@@ -49,7 +49,7 @@ Este es el formulario de login basado en Glassmorphism, con HTML y CSS puros.
 </body>
 </html>
 ```
-     ## 🎨 CSS
+## 🎨 CSS
 
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
