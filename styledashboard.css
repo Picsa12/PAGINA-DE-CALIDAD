@@ -10,7 +10,7 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   min-height: 100vh;
  background: linear-gradient(
     165deg,
