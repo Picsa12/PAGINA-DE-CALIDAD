@@ -19,7 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Inicio de sesión exitoso");
     window.location.href = "dashboard.html";
   } else {
-    alert("Usuario o contraseña incorrectos.");
+    const errorDiv = document.getElementById("mensaje-error");
+
+errorDiv.textContent = "Usuario o contraseña incorrectos.";
+errorDiv.style.display = "block";
+    };
     }
   });
 });
