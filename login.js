@@ -20,9 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "dashboard.html";
   } else {
     const errorDiv = document.getElementById("mensaje-error");
-
-errorDiv.textContent = "Usuario o contraseña incorrectos.";
-errorDiv.style.display = "block";
+    errorDiv.textContent = "Usuario o contraseña incorrectos.";
+    errorDiv.style.display = "block";
     };
     }
   });
