@@ -4,15 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault(); // Evita que recargue la página
 
+    const users = [
+  { username: "admin", password: "1234" },
+  { username: "cristin", password: "12345" },
+  { username: "daniel", password: "dani01" },
+];
     const username = form.querySelector("input[type='text']").value;
     const password = form.querySelector("input[type='password']").value;
 
-    // Simulamos un usuario y contraseña correctos
-    if (username === "admin" && password === "1234") {
-      // Redirige a otra página si las credenciales son correctas
-      window.location.href = "dashboard.html"; 
-    } else {
-      alert("Usuario o contraseña incorrectos.");
+  //buscar los usuarios
+   const user = users.find(u => u.username === username && u.password === password);
+
+  if (user) {
+    alert("Inicio de sesión exitoso");
+    window.location.href = "dashboard.html";
+  } else {
+    alert("Usuario o contraseña incorrectos.");
     }
   });
 });
