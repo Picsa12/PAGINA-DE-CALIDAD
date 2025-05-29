@@ -131,3 +131,18 @@ margin-top: 20px;
 .wrapper .register-link p a:hover {
   text-decoration: underline;
 }
+.mensaje-error {
+  background: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde suave blanco */
+  backdrop-filter: blur(20px); /* EFECTO GLASS: desenfoque del fondo */
+  -webkit-backdrop-filter: blur(12px); /* soporte en Safari */
+  color: rgb(255, 0, 0);
+  padding: 12px 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  display: none; /* oculto por defecto */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+}
